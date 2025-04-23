@@ -1,0 +1,79 @@
+#view_3780{
+
+    .image-container {
+      overflow: hidden; /* Hide overflow */
+      text-align: center; /* Center contents horizontally */
+      position: relative; /* Position container relatively */
+      display: inline-block !important; /* Display as inline-block */
+    }
+
+    .text-container {
+      text-align: center; /* Center contents horizontally */
+      position: relative; /* Position container relatively */
+    }
+
+    .image-a {
+      width: 100%; /* Ensure image does not exceed container width */
+      height: auto; /* Ensure image does not exceed container height */
+      position: absolute; /* Position image absolutely */
+      top: 50%; /* Align image to the vertical center */
+      left: 50%; /* Align image to the horizontal center */
+      transform: translate(-50%, -50%); /* Center image precisely */
+    }
+
+    .image-b {
+      width: auto; /* Ensure image does not exceed container width */
+      height: 350px; /* Ensure image does not exceed container height */
+      object-fit: cover; /* Scale the image while preserving aspect ratio */
+      position: absolute; /* Position image absolutely */
+      top: 50%; /* Align image to the vertical center */
+      left: 50%; /* Align image to the horizontal center */
+      transform: translate(-50%, -50%); /* Center image precisely */
+    }
+
+    .image-text-1 {
+      color: white;
+      font-size: 48px;
+      position: absolute; /* Position text absolutely */
+      width: 80%; /* Set text width to 100% */
+      top: 50%; /* Align image to the vertical center */
+      left: 50%; /* Align image to the horizontal center */
+      transform: translate(-50%, -50%); /* Center image precisely */
+    }
+
+    .image-text-2 {
+      color: black;
+      font-size: 1rem;
+      background-color: rgba(220, 220, 220, 0.5); /* Gray color with 70% opacity */
+      border-radius: 30px;
+      position: absolute; /* Position text absolutely */
+      width: 75%; /* Set text width to 100% */
+      max-width: 250px;
+      top: 5%; /* Align image to the vertical center */
+      left: 5%; /* Align image to the horizontal center */
+    }
+
+    .bottom-note{
+      color: black;
+      font-size: 1rem;
+      background-color: rgb(220, 220, 220); /* Gray color with 70% opacity */
+      border-radius: 30px;
+      margin-top: 10px;
+      padding: 10px
+
+  }
+
+  .button{
+    color: black;
+    background-color: #00FFFF;
+    border-radius: 30px;
+    font-size: 1rem;
+    position: absolute; /* Position text absolutely */
+    width: 150px; /* Set text width to 100% */
+    padding:15px;
+    bottom: 10%; /* Align image to the vertical center */
+    left: 50%; /* Align image to the horizontal center */
+    transform: translatex(-50%); /* Center image precisely */
+  }
+
+  }
