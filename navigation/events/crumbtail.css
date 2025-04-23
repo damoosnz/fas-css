@@ -1,0 +1,9 @@
+/* hide crumbtail */
+
+.kn-crumbtrail {
+    display: none;
+}
+
+.kn-current-user-intro {
+    display: none;
+}
