@@ -1,0 +1,7 @@
+/*  hide link to paramters page
+    hide link to log out page within the mobile menu    */
+
+.knHeader__mobile-nav>div>div>ul>li:nth-child(1),
+.knHeader__mobile-nav>div>div>ul>li:nth-child(2) {
+    display: none;
+}

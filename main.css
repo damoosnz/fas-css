@@ -1,4 +1,3 @@
 
-
-
-@import url('./navigation/navigation.css')
+@import url('./navigation/navigation.css');
+@import url('./mobile-version/mobile.version.css');
