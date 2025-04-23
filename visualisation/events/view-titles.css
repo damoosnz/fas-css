@@ -1,0 +1,7 @@
+/* Apply Background to titles */
+
+.kn-content .kn-special-title,
+.kn-title {
+    border-radius: 20px;
+    background-color: aquamarine;
+}
