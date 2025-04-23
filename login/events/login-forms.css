@@ -1,0 +1,32 @@
+/* login forms */
+
+#knack-body.loginPage {
+    background-image: url("https://s3.eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5e654fc8e68579001806cd36/65e2a87752f4da00276d9c96/original/headerbackground.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.kn-login .column.is-half , .kn-register.kn-form, #knack-reset-pass {
+  margin:auto;
+  border-radius:.6em;
+  -webkit-box-shadow: 10px 10px 90px -24px rgba(150,147,150,1);
+  -moz-box-shadow: 10px 10px 90px -24px rgba(150,147,150,1);
+  box-shadow: 10px 10px 90px -24px rgba(150,147,150,1);
+  border:1px solid rgb(189, 187, 187);
+  padding:20px 20px 20px 20px;
+  background: white;
+}
+
+.kn-views{
+  background: white;
+  border-radius:.6em;
+  padding:20px 20px 20px 20px;
+}
+
+.kn-login {
+  padding-top: 100px;
+}
+
+.kn-login .kn-message.is-error {
+ margin-bottom: 40px;
+}
