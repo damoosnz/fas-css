@@ -6,19 +6,3 @@
     margin-top:15px !important;
   }
 
-/* only affects views you explicitly mark */
-
-
-.hide-date-and-time .kn-cal-list-day,
-.hide-date-and-time .kn-cal-list-date,
-.hide-date-and-time .kn-cal-list-time {
-  display: none;
-}
-
-.remove-text-decoration .kn-cal-list-details {
-  text-decoration: none !important;
-}
-
-#view_1764 .kn-cal-list-time {
-    display: none;
-  }
