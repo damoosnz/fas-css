@@ -1,0 +1,18 @@
+/* apply background to list containers */
+
+.kn-list-item-container {
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+}
+
+/* Overwrite the column width styles */
+@media screen and (min-width: 769px) {
+
+    .kn-content .column.is-one-third,
+    .kn-content .column.is-one-third-tablet {
+        width: calc(33.3333% - 10px);
+        /* Adjust width to accommodate padding and spacing */
+    }
+}

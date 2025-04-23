@@ -1,0 +1,7 @@
+/* apply background to calendar list containers */
+
+.kn-cal-list li {
+    border-radius: 20px;
+    background-color: aquamarine !important;
+    margin-top:15px !important;
+  }
