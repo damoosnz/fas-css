@@ -1,0 +1,16 @@
+/* turn display off of title of modal pages */
+
+.kn-modal h1 {
+    display: none;
+}
+
+.modal-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-modal {
+    margin-left: auto !important;
+    /* This will push the button to the right */
+}
