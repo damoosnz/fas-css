@@ -55,3 +55,24 @@
     /* Add bottom margin; adjust the value as needed */
 }
 
+.reset-cross {
+    position: absolute;
+    top: 5px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    background: white; /* Background color for contrast */
+    border-radius: 50%;
+    width: 20px; /* Size of the cross */
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: red; /* Color of the cross */
+    border: 1px solid red; /* Border color */
+}
+
+.reset-cross:hover {
+    background-color: #fdd; /* Light background on hover */
+}
+
