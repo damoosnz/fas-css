@@ -1,4 +1,15 @@
 /* Style for all file inputs inside file-upload containers */
+.kn-file-upload {
+    width: 100%;
+    background-color: lightblue;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .kn-file-upload .input.is-file {
     width: 100%;  /* Full width to cover the container */
     height: 100%; /* Full height to cover the container */
