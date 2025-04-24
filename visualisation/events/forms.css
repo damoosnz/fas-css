@@ -1,0 +1,6 @@
+/* frm container to be full width */
+.kn-form-col.is-constrained {
+    width: 100%;
+    max-width: 100% !important;
+    margin-right: 10px !important;
+}
