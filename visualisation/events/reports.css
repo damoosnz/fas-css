@@ -1,0 +1,28 @@
+/* pivot tables and reports */
+
+.kn-pivot-group {
+    text-align: left !important;
+}
+
+.kn-pivot-calc {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+tr.kn-table_summary.even td:not(:first-child),
+tr.kn-table_summary td:not(:first-child) {
+    text-align: center !important;
+}
+
+tr.kn-table_summary.even,
+tr.kn-table_summary {
+    background-color: #EFF1F3;
+}
+
+.kn-report-rendered th:not(:first-child) {
+    text-align: center !important;
+}
+
+.kn-report-rendered thead {
+    background-color: #EFF1F3;
+}
