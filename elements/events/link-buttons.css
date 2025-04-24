@@ -1,0 +1,9 @@
+/* add padding to buttons */
+
+.knViewLink.knViewLink--page {
+    padding: 0.375em;
+}
+
+.knViewLink.knViewLink--action {
+    padding: 0.375em;
+}

@@ -1,6 +1,7 @@
 
 @import url('./navigation/navigation.css');
 @import url('./mobile-version/mobile.version.css');
-@import url('./visualisation/visualisation.css');
+@import url('./views/views.css');
 @import url('./view-specific/view-specific.css');
 @import url('./login/login.css');
+@import url('/elements/elements.css');
