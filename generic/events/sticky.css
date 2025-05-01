@@ -1,0 +1,7 @@
+bimsc-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white; /* or match your page background */
+    padding: 10px 0;
+}
